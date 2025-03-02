@@ -33,13 +33,26 @@ class Slide2 extends PureComponent {
                             </div>
                         </div>
                         <div className="col d-flex align-items-center justify-content-end">
+                            <Link href="/reciepe4"><img src="/assets/icon/next.svg"/></Link>
+                        </div>
+                    </div>
+
+                    <div className="row d-flex justify-content-between custom-bg-color shadow-sm bg-white rounded py-2">
+                        <div className="col">
+                            <h6 className="text-dark mb-0">Onion-Carrot Soup</h6>
+                            <div className="">
+                                <img src="/assets/icon/clock.svg"></img>
+                                <span className="text-dark custom-font-size">  Takes 20-30 minutes</span>
+                            </div>
+                        </div>
+                        <div className="col d-flex align-items-center justify-content-end">
                             <Link href="#"><img src="/assets/icon/next.svg"/></Link>
                         </div>
                     </div>
 
                     <div className="row d-flex justify-content-between custom-bg-color shadow-sm bg-white rounded py-2">
                         <div className="col">
-                            <h6 className="text-dark mb-0">Garlic Carrot Stir-Fry</h6>
+                            <h6 className="text-dark mb-0">Garlic Butter Carrots</h6>
                             <div className="">
                                 <img src="/assets/icon/clock.svg"></img>
                                 <span className="text-dark custom-font-size">  Takes 10-15 minutes</span>
@@ -52,23 +65,10 @@ class Slide2 extends PureComponent {
 
                     <div className="row d-flex justify-content-between custom-bg-color shadow-sm bg-white rounded py-2">
                         <div className="col">
-                            <h6 className="text-dark mb-0">Garlic Carrot Stir-Fry</h6>
+                            <h6 className="text-dark mb-0">Carrot-Onion Rice</h6>
                             <div className="">
                                 <img src="/assets/icon/clock.svg"></img>
-                                <span className="text-dark custom-font-size">  Takes 10-15 minutes</span>
-                            </div>
-                        </div>
-                        <div className="col d-flex align-items-center justify-content-end">
-                            <Link href="#"><img src="/assets/icon/next.svg"/></Link>
-                        </div>
-                    </div>
-
-                    <div className="row d-flex justify-content-between custom-bg-color shadow-sm bg-white rounded py-2">
-                        <div className="col">
-                            <h6 className="text-dark mb-0">Garlic Carrot Stir-Fry</h6>
-                            <div className="">
-                                <img src="/assets/icon/clock.svg"></img>
-                                <span className="text-dark custom-font-size">  Takes 10-15 minutes</span>
+                                <span className="text-dark custom-font-size">  Takes 25-30 minutes</span>
                             </div>
                         </div>
                         <div className="col d-flex align-items-center justify-content-end">
@@ -81,9 +81,7 @@ class Slide2 extends PureComponent {
             </div>
 
             <div className="container text-center mt-4">
-            <button className="btn btn-outline-success rounded-pill px-4 py-2">
-                        Try Something Else
-                    </button>
+                <Link className="" href="/mood-to-meal">Try Something Esle</Link>
             </div>
 
             

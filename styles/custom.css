@@ -9,6 +9,11 @@
   background-color: #DAD7CD3D;
 }
 
+.custom-para{
+  font-size: 14px;
+  color: #000000;
+}
+
 .custom-width{
   width: 10rem;
 }
@@ -18,5 +23,14 @@
 }
 
 .custom-border{
-  border: 1px solid #3A5A40;
+  height: 50vh;
+  background-color: #DAD7CD3D;
+}
+
+.custom-point{
+  background-color: #3A5A40;
+  height: 24px;
+  width: 24px;
+  color: #ffffff;
+  border-radius: 50%;
 }

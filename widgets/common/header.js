@@ -14,7 +14,7 @@ class Header extends PureComponent {
 		return (
 			<>
 			
-			<div className="d-flex justify-content-between container-fluid sticky-top border-bottom p-2">	
+			<div className="d-flex justify-content-between bg-body container-fluid sticky-top border-bottom p-2">	
 					<div className="col-3"><Link href="#"><img src="/assets/icon/menu.svg"></img></Link></div>
 					<div className="col-6 text-center"><Link href="#"><img src="/assets/logo.svg"></img></Link></div>
 					<div className="col-3 text-end"><Link href="#"><img src="/assets/icon/saved-reciepies.svg"></img></Link></div>
