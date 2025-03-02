@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { PureComponent } from 'react'
 
 class Footer extends PureComponent {
@@ -13,9 +14,9 @@ class Footer extends PureComponent {
         return (
             <>
             
-            <div class="input-group rounded-3 mb-3 mx-4">
+            <div class="input-group rounded-3 mb-3">
                 <input type="text" class="form-control" placeholder="Enter Ingredients here" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                <button class="btn" type="button" id="button-addon2">Search</button>
+                <Link href="/slide2">Button</Link>
             </div>
             
             </>
