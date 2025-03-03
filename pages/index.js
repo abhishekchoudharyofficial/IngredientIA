@@ -17,31 +17,29 @@ class Index extends PureComponent {
 			<>
 			
 			<Header {...this.props} />
-			
-			<div className="container d-flex justify-content-center align-items-center vh-100">
-				<div className="container">
-					<div className="row">
-						
-							<h2 className="text-center">Let's cook something amazing</h2>
-						
-					</div>
-					<div className="d-flex flex-column align-items-center">
-          <div className="d-flex mb-3 gap-3">
-            <div className="custom-bg-color p-3 mr-2">
-              <p className="text-center mb-0">Salad with Tomato,<br />Cucumber, Lettuce</p>
-            </div>
-            <div className="custom-bg-color p-3">
-              <p className="text-center mb-0">Lunch with Cabbage,<br />Potato, Onion</p>
-            </div>
-          </div>
-          <div className="custom-bg-color p-3">
-            <p className="text-center mb-0">Noodles with Pepper,<br />Soy Sauce, Garlic</p>
-          </div>
-        </div>
-				</div>
-			</div>
 
-			<Link href="/mood-to-meal">Next page</Link>
+            <div className="container d-flex flex-column justify-content-center custom-height">
+                <div className="row">
+                    <h1 className="text-center">Name 3 ingredients, I'll do the rest!</h1>
+                </div>
+                <div className="row d-flex">
+                    <div className="text-end col-9">
+                        <span className="">To add up to 7 ingredients</span>
+                    </div>
+                    <div className="col-3">
+                        <Link className="custom-font-color fw-semibold" href="/plans">Tap here</Link>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+            <div className="input-group mb-3 px-4">
+                <input type="text" className="form-control shadow-none border border-end-0 py-2" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                <div className="d-flex align-items-center justify-content-center">
+                    <Link className="border border-start-0 rounded-1 p-1 py-2" href="mood-to-meal"><img className="" src="/assets/icon/next.svg"></img></Link>
+                </div>
+            </div>
 			
 			</>
 		)

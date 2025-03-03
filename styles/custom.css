@@ -13,9 +13,7 @@
   font-size: 32px;
 }
 
-.custom-logo-width{
-  width: 70%;
-}
+
 
 .custom-bg-color{
   
@@ -49,4 +47,10 @@
 
 .custom-height{
   height: 80vh;
+}
+
+.custom-btn{
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #3A5A40;
 }

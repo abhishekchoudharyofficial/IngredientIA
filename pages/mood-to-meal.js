@@ -81,7 +81,7 @@ class Slide2 extends PureComponent {
             </div>
 
             <div className="container text-center mt-4">
-                <Link className="" href="/mood-to-meal">Try Something Esle</Link>
+                <Link className="" href="/">Try Something Else</Link>
             </div>
 
             
