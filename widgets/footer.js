@@ -14,9 +14,11 @@ class Footer extends PureComponent {
         return (
             <>
             
-            <div class="input-group rounded-3 mb-3">
-                <input type="text" class="form-control" placeholder="Enter Ingredients here" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                <Link href="/slide2">Button</Link>
+            <div className="input-group mb-3 px-4">
+                <input type="text" className="form-control shadow-none border border-end-0" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                <div className="d-flex align-items-center justify-content-center">
+                    <Link className="border border-start-0 rounded-1 p-1" href="#"><img className="" src="/assets/icon/next.svg"></img></Link>
+                </div>
             </div>
             
             </>

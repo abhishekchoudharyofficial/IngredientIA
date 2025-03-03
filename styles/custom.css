@@ -5,8 +5,20 @@
   font-family: "Poppins", sans-serif;
 }
 
+.custom-font-color{
+  color: #3A5A40;
+}
+
+.custom-icon-size{
+  font-size: 32px;
+}
+
+.custom-logo-width{
+  width: 70%;
+}
+
 .custom-bg-color{
-  background-color: #DAD7CD3D;
+  
 }
 
 .custom-para{
@@ -33,4 +45,8 @@
   width: 24px;
   color: #ffffff;
   border-radius: 50%;
+}
+
+.custom-height{
+  height: 80vh;
 }

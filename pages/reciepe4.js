@@ -100,6 +100,10 @@ class Reciepe4 extends PureComponent {
             <div className="container text-center mt-4">
                 <Link className="" href="/mood-to-meal">Find Another Dish</Link>
             </div>
+
+            <div className="container text-center mt-4">
+                <Link className="" href="/ingredients2">Go to ingredients.js</Link>
+            </div>
             
             </>
         )
